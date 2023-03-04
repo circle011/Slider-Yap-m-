@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <title>images slider</title>
+</head>
+<body>
+    <div class="content">
+        <div class="images">
+            <img src="img/01-hami.jpg" alt="hamburger">
+            <img src="img/02-patso.jpg" alt="patates">
+            <img src="img/03-pit.jpg" alt="pizza">
+            <img src="img/04-durum.jpg" alt="dürüm">
+        </div>
+        <div onclick="side_slider(-1)" class="slide left">
+            <span class="fas fa-angle-left"></span>
+        </div>
+        <div onclick="side_slider(1)" class="slide right">
+            <span class="fas fa-angle-right"></span>
+        </div>
+        <div class="btn-slider">
+            <span onclick="btn_slider(1)"></span>
+            <span onclick="btn_slider(2)"></span>
+            <span onclick="btn_slider(3)"></span>
+            <span onclick="btn_slider(4)"></span>
+        </div>
+    </div>
+
+
+    <!--
+                        *******     RESİMLİ SLİDER YAPIMI ***********
+            İLK ÖNCE HTML-CSS-JS uzantılarımızı kurduktan sonra html kodlarımızla 
+            başlıyoruz ilk ve ana divimiz olan content divimizi kuruyoruz
+            content divimizin içine resimleri koyacayımız divimizi açıyoruz 
+            padding ve marginimizi verdikten sonra resimlerimizi düzenliyoruz ve
+            sıralı olacak bir biçimde css kodlarrımıza yazıyoruz
+            resimlerin geçişini sağlamak için btn-slider divimizin içine
+            span tagını açıyoruz ve css ile stil verdikten sonra js kodlarıyla
+            spanla buton yapıruz ve resimlerin geçmesini sağlıyoruz
+
+
+
+
+    -->    
+    
+</body>
+</html>
